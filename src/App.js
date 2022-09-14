@@ -23,11 +23,11 @@ function App() {
 
             <Box style={{float: 'right'}}>
               <Nav>
-                <Nav.Link href="background" to="/">Background</Nav.Link>
+                <Nav.Link href="background" to="/background">Background</Nav.Link>
                 <Nav.Link href="resume" to="/resume">Resume / CV</Nav.Link>
                 <Nav.Link href="works" to="/works">Works</Nav.Link>
                 <NavDropdown title="Research" align='end'>
-                  <NavDropdown.Item href="undergrad" to="/undergrad">Undergrad Thesis</NavDropdown.Item>
+                  <NavDropdown.Item href="undergrad" to="/undergrad">Undergraduate Research</NavDropdown.Item>
                   <NavDropdown.Item href="masters" to="/masters">Masters Thesis</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
