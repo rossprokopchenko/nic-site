@@ -36,8 +36,8 @@ export default function ResumeCV() {
                         <TimelineConnector />
                     </TimelineSeparator>
 
-                    <TimelineContent 
-                        sx={{ py: '12px', px: 2 }} 
+                    <TimelineContent
+                        sx={{ py: '12px', px: 2, my: '50px' }} 
                         onMouseEnter={() => setHoverIndex(0)}
                         onMouseLeave={() => setHoverIndex(-1)}
                         >
@@ -79,7 +79,7 @@ export default function ResumeCV() {
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2 }}
+                        sx={{py: '12px', px: 2, my: '50px' }}
                         onMouseEnter={() => setHoverIndex(1)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -121,7 +121,7 @@ export default function ResumeCV() {
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2 }}
+                        sx={{py: '12px', px: 2, my: '50px' }}
                         onMouseEnter={() => setHoverIndex(2)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -162,7 +162,7 @@ export default function ResumeCV() {
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2 }}
+                        sx={{py: '12px', px: 2, my: '50px' }}
                         onMouseEnter={() => setHoverIndex(3)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -205,7 +205,7 @@ export default function ResumeCV() {
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2 }}
+                        sx={{py: '12px', px: 2, my: '50px' }}
                         onMouseEnter={() => setHoverIndex(4)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -247,7 +247,7 @@ export default function ResumeCV() {
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2 }}
+                        sx={{py: '12px', px: 2, my: '50px' }}
                         onMouseEnter={() => setHoverIndex(5)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -290,7 +290,7 @@ export default function ResumeCV() {
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2 }}
+                        sx={{py: '12px', px: 2, my: '50px' }}
                         onMouseEnter={() => setHoverIndex(6)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -330,7 +330,7 @@ export default function ResumeCV() {
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2 }}
+                        sx={{py: '12px', px: 2, my: '50px' }}
                         onMouseEnter={() => setHoverIndex(7)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -372,7 +372,7 @@ export default function ResumeCV() {
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2 }}
+                        sx={{py: '12px', px: 2, my: '50px' }}
                         onMouseEnter={() => setHoverIndex(8)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
