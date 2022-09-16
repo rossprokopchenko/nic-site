@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Box, Typography, ThemeProvider, createTheme, Collapse } from '@mui/material';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineDot, TimelineConnector, TimelineContent, TimelineOppositeContent } from '@mui/lab';
+import { School, Work, VolunteerActivism } from '@mui/icons-material';
 
 export default function ResumeCV() {
     const [hoverIndex, setHoverIndex] = useState(-1);
@@ -13,6 +14,12 @@ export default function ResumeCV() {
             '',
           ].join(','),
         },});
+
+    const timelineContentStyle = {
+        py: 3,
+        my: '50px',
+        background: '#E8B4BC'
+    }
 
     return(
         <Box>
@@ -31,13 +38,14 @@ export default function ResumeCV() {
 
                     <TimelineSeparator>
                         <TimelineConnector />
-                            <TimelineDot sx={{background: 'red', transform: 'scale(1.2)'}}>
+                            <TimelineDot sx={{background: 'red'}}>
+                                <Work />
                             </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
 
                     <TimelineContent
-                        sx={{ py: '12px', px: 2, my: '50px' }} 
+                        sx={timelineContentStyle} 
                         onMouseEnter={() => setHoverIndex(0)}
                         onMouseLeave={() => setHoverIndex(-1)}
                         >
@@ -74,12 +82,13 @@ export default function ResumeCV() {
                     <TimelineSeparator>
                         <TimelineConnector />
                             <TimelineDot>
+                                <Work />
                             </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2, my: '50px' }}
+                        sx={timelineContentStyle}
                         onMouseEnter={() => setHoverIndex(1)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -116,12 +125,13 @@ export default function ResumeCV() {
                     <TimelineSeparator>
                         <TimelineConnector />
                             <TimelineDot sx={{backgroundColor: 'orange'}}>
+                                <Work />
                             </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2, my: '50px' }}
+                        sx={timelineContentStyle}
                         onMouseEnter={() => setHoverIndex(2)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -157,12 +167,13 @@ export default function ResumeCV() {
                     <TimelineSeparator>
                         <TimelineConnector />
                             <TimelineDot sx={{backgroundColor: 'purple'}}>
+                                <School />
                             </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2, my: '50px' }}
+                        sx={timelineContentStyle}
                         onMouseEnter={() => setHoverIndex(3)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -200,12 +211,13 @@ export default function ResumeCV() {
                     <TimelineSeparator>
                         <TimelineConnector />
                             <TimelineDot sx={{backgroundColor: 'orange'}}>
+                                <School />
                             </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2, my: '50px' }}
+                        sx={timelineContentStyle}
                         onMouseEnter={() => setHoverIndex(4)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -242,12 +254,13 @@ export default function ResumeCV() {
                     <TimelineSeparator>
                         <TimelineConnector />
                             <TimelineDot sx={{backgroundColor: '#249225'}}>
+                                <School />
                             </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2, my: '50px' }}
+                        sx={timelineContentStyle}
                         onMouseEnter={() => setHoverIndex(5)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -285,12 +298,13 @@ export default function ResumeCV() {
                     <TimelineSeparator>
                         <TimelineConnector />
                             <TimelineDot sx={{backgroundColor: 'orange'}}>
+                                <School />
                             </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2, my: '50px' }}
+                        sx={timelineContentStyle}
                         onMouseEnter={() => setHoverIndex(6)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -325,12 +339,13 @@ export default function ResumeCV() {
                     <TimelineSeparator>
                         <TimelineConnector />
                             <TimelineDot sx={{backgroundColor: '#0066FF'}}>
+                                <School />
                             </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2, my: '50px' }}
+                        sx={timelineContentStyle}
                         onMouseEnter={() => setHoverIndex(7)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >
@@ -367,12 +382,13 @@ export default function ResumeCV() {
                     <TimelineSeparator>
                         <TimelineConnector />
                             <TimelineDot sx={{backgroundColor: 'orange'}}>
+                                <School />
                             </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
 
                     <TimelineContent 
-                        sx={{py: '12px', px: 2, my: '50px' }}
+                        sx={timelineContentStyle}
                         onMouseEnter={() => setHoverIndex(8)}
                         onMouseLeave={() => setHoverIndex(-1)}
                     >

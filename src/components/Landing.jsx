@@ -5,7 +5,7 @@ import Bubs from '../resources/BUBS.png';
 
 export default function Landing() {
     return(
-        <Box>
+        <Box sx={{height: '100vh'}}>
             <Typography variant='h4'>
                 <strong>ERROR 69</strong> - Bubbs could not find the website you're looking for
             </Typography>

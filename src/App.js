@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 
@@ -15,9 +14,9 @@ import Masters from './components/Masters';
 
 function App() {
   return (
-    <Box className="App">
+    <Box className="App" sx={{background: '#F5E3E0', textAlign: 'center'}}>
       <BrowserRouter>
-        <Navbar bg='light' variant='light' className='mb-3'>
+        <Navbar className='navbar'>
           <Container fluid>
             <Navbar.Brand href='/' to="/">Nicole Murray</Navbar.Brand>
 
