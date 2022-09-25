@@ -26,8 +26,8 @@ function App() {
                 <Nav.Link href="resume" to="/resume">Resume / CV</Nav.Link>
                 <Nav.Link href="works" to="/works">Works</Nav.Link>
                 <NavDropdown title="Research" align='end'>
-                  <NavDropdown.Item href="undergrad" to="/undergrad">Undergraduate Research</NavDropdown.Item>
-                  <NavDropdown.Item href="masters" to="/masters">Masters Thesis</NavDropdown.Item>
+                  <NavDropdown.Item href="research/undergraduate" to="research/undergraduate">Undergraduate Research</NavDropdown.Item>
+                  <NavDropdown.Item href="research/masters" to="research/masters">Masters Thesis</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Box>
@@ -39,8 +39,8 @@ function App() {
           <Route path='/background' element={<Background />} />
           <Route path='/resume' element={<ResumeCV />} />
           <Route path='/works' element={<Works />} />
-          <Route path='/undergrad' element={<Undergrad />} />
-          <Route path='/masters' element={<Masters />} />
+          <Route path='research/undergraduate' element={<Undergrad />} />
+          <Route path='research/masters' element={<Masters />} />
         </Routes>
       </BrowserRouter>
       
